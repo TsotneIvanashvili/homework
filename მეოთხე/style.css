@@ -1,0 +1,25 @@
+body{
+    background-color: lightgray;
+}
+
+.card{
+    text-align: center;
+}
+
+.profession{
+    color: gray;
+}
+
+#name{
+    color: darkblue;
+}
+
+button{
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: gray;
+}
