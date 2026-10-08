@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+.course-card{
+    background-color: darkgreen;
+    padding: 10;
+    border: 2px solid black;
+    margin: 60px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: darkgreen;
+}
+
+.description{
+    font-size: 20px;
+    color: darkred;
+}
+
+#register-button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.mini-card{
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
