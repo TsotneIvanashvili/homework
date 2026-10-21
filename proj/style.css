@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #245AA333;
+}
+
+
+
+.links{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.links li{
+    font-weight: 400;
+    font-size: 14px;
+    color: #141414;
+}
+
+.buttons{
+    display: flex;
+}
+
+.orange{
+    background-color: #F58634;
+    width: 523px;
+    height: 628px;
+}
+
+.dasaxeleba{
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    flex-direction: column;
+}
