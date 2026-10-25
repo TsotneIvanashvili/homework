@@ -1,8 +1,9 @@
 body{
-    font-family: sans-serif;
+    font-family: "Avenir Next Georgian", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #FAFAFA;
 }
 
 nav{
@@ -12,12 +13,28 @@ nav{
     background-color: #245AA333;
 }
 
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -400px;
+    gap: 80px;
+}
 
+.txt{
+    text-align: center;
+}
+
+.bg-color{
+    background-color: #245AA333;
+    height: 550px;
+}
 
 .links{
     display: flex;
     list-style-type: none;
-    gap: 20px;
+    gap: 32px;
 }
 
 .links li{
@@ -26,14 +43,11 @@ nav{
     color: #141414;
 }
 
-.buttons{
-    display: flex;
-}
+
 
 .orange{
     background-color: #F58634;
     width: 523px;
-    height: 628px;
 }
 
 .dasaxeleba{
@@ -51,6 +65,210 @@ nav{
 .info{
     display: flex;
     justify-content: center;
-    margin-left: 70px;
+    padding: 204px 221px 136px 70px;
     flex-direction: column;
+}
+
+.btn1{
+    background-color: #F58634;
+    border: none;
+    border-radius: 100px;
+    width: 195px;
+    height: 48px;
+
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.buttons2{
+    border: 1px solid #1414141A;
+    border-radius: 100px;
+    padding: 3px;
+}
+
+.geo{
+    border-radius: 100px;
+    border: none;
+    background-color: #245AA3;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 9px 16px 9px 16px;
+}
+
+.eng{
+    padding: 9px 16px 9px 16px;
+    border-radius: 100px;
+    border: none;
+    background-color: transparent;
+}
+
+.h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.desc{
+    font-size: 14px;
+    color: #14141499;
+    line-height: 150%;
+    font-weight: 500;
+    width: 790px;
+    text-align: center;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 20px;
+}
+
+
+.ico{
+    border: 1px solid #FFFFFF33;
+    width: fit-content;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.white{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    background-color: white;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 520px;
+    width: 468px;
+}
+
+.same{
+    border: none;
+    border-bottom: 1px solid #D9D9D9;
+    height: 38px;
+    padding-bottom: 16px;
+    outline: none;
+}
+
+.inputs input::placeholder{
+    color: #14141499;
+}
+
+
+
+.mains{
+    display: flex;
+}
+
+.formButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formButton button{
+    background-color: #245AA3;
+    width: 151px;
+    height: 60px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.footer-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ptxt{
+    width: 384px;
+    color: #14141499;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-socials{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-socials div{
+    border: 1px solid #14141433;
+    width: fit-content;
+    border-radius: 100px;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-column {
+    height: 169px;
+    display: flex;
+    
+}
+
+.footer-column h3{
+    color: #14141499;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+
+.footer-column ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.idkk{
+    font-size: 14px;
+    color: #14141499;
+    font-weight: 500;
+}
+
+.bolo{
+    border: none;
+    border-bottom: 1px solid #D9D9D9;
+    height: 38px;
+    padding-bottom: 100px;
+    outline: none;
 }
