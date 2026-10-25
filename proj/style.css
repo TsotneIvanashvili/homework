@@ -75,6 +75,7 @@ main{
     border-radius: 100px;
     width: 195px;
     height: 48px;
+    color: white;
 
 }
 
@@ -208,6 +209,7 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 95%;
+    align-items: center;
 }
 
 .footer-about{
@@ -245,10 +247,10 @@ footer{
     
 }
 
-.footer-column h3{
+.pirv{
     color: #14141499;
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: 900;
+    font-size: 15px;
     
 }
 
