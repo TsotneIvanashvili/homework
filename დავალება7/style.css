@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.product-card{
+    position: relative;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.badge{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+}
+
+.title{
+    font-weight: 900;
+}   
+
+.info{
+    padding: 10px;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.add{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(67, 0, 139);
+    color: white;
+    font-weight: bold;
+}
+
+.image{
+    width: 300px;
+}
